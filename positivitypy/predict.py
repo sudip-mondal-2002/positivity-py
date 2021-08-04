@@ -8,9 +8,9 @@ class Predictor:
         text=text.replace("n't"," not")
         ans=self.pred.predict(self.transformer.transform([text]).toarray())[0]
         if "not" in text:
-            return(1-ans)
+            return bool(1-ans)
         else:
-            return(ans)
+            return bool(ans)
 
 def predict(text:str)->bool:
     predict_file = open(os.path.dirname(__file__)+'/predFile.pickle', 'rb')

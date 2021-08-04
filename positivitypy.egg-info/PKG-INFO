@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: positivitypy
-Version: 1.0.0
+Version: 1.1.0
 Summary: Detecting if text is in positive or negative sense. Can be used to classify reviews.
 Home-page: UNKNOWN
 Author: sudip-mondal-2002 (Sudip Mondal)
@@ -14,5 +14,22 @@ Classifier: Operating System :: MacOS :: MacOS X
 Classifier: Operating System :: Microsoft :: Windows
 Description-Content-Type: text/markdown
 
-Detecting if text is in positive or negative sense. Can be used to classify reviews. Created using the logics of natural language processing.
+
+# positivitypy
+
+This package can detect if text is in positive or negative sense. Can be used to classify reviews. Created using the logics of natural language processing.
+
+## Installation
+
+```cmd
+pip install positivitypy
+```
+
+## Usage
+
+```py
+import positivitypy
+positivitypy.predict("This is a useful package") # returns boolean
+```
+
 

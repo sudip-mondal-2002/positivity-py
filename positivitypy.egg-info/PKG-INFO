@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: positivitypy
+Version: 1.0.0
+Summary: Detecting if text is in positive or negative sense. Can be used to classify reviews.
+Home-page: UNKNOWN
+Author: sudip-mondal-2002 (Sudip Mondal)
+Author-email: <sudipmondal.2002@rediffmail.com>
+License: UNKNOWN
+Keywords: python,NLP,machine-learning,review,classification
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+Detecting if text is in positive or negative sense. Can be used to classify reviews. Created using the logics of natural language processing.
+

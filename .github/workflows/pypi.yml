@@ -16,8 +16,7 @@ jobs:
       - run: python setup.py sdist
       - name: Publish package on PyPI 📦
         uses: pypa/gh-action-pypi-publish@v1.5.1
-        env:
-          password: ${{ secrets.GITHUB_TOKEN }}
-          repository_url: https://pypi.pkg.github.com/sudip-mondal-2002
         with:
           verbose: true
+          password: ${{ secrets.GITHUB_TOKEN }}
+          repository_url: https://pypi.pkg.github.com/sudip-mondal-2002

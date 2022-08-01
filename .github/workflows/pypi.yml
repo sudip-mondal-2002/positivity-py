@@ -19,4 +19,4 @@ jobs:
         with:
           verbose: true
           password: ${{ secrets.GITHUB_TOKEN }}
-          repository_url: https://pypi.pkg.github.com/sudip-mondal-2002
+          repository_url: https://pypi.pkg.github.com/sudip-mondal-2002/positivity-py
